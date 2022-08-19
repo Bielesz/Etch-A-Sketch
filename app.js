@@ -1,3 +1,5 @@
+"use strict";
+
 let color = "black";
 let click = true;
 
@@ -57,4 +59,5 @@ document.querySelector("body").addEventListener("click", (e) => {
       document.querySelector(".mode").textContent = "Mode: Not Coloring";
     }
   }
-});``
+});
+``;
